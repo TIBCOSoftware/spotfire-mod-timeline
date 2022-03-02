@@ -1,0 +1,107 @@
+
+body {
+    overflow-y:hidden;
+}
+
+#modcontainer {
+    height: 100%;
+    width: 100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+
+#interactionLayer {
+    background-color: rgb(180, 172, 172);
+    opacity: 0.0;
+}
+
+.inactiveMarking {
+    background-color:#8cb0e67f;
+    border: #19294999;
+    border-width: 1px;
+    border-style: solid;
+    pointer-events: none;
+    position:absolute;
+    visibility: hidden;
+}   
+
+.activeMarking {
+    background-color:#8cb0e67f;
+    border: #19294999;
+    border-width: 1px;
+    border-style: solid;
+    pointer-events: none;
+    position:absolute;
+    visibility: visible;
+}
+
+#drawingLayer  {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.timeline {
+    border: solid 1px;
+    border-radius: 4px;
+    position: absolute;
+    padding:0px;
+    margin:0px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.12);
+}
+
+.timeMarker {
+    background-color: none;
+    position: absolute;
+    border: solid lightgray 1px;
+    padding-left: 5px;
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: left;
+    cursor: default;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right:none;
+    border-bottom:none;
+    user-select: none;
+    -webkit-user-drag: none;
+    
+}
+
+.timeMarker-top {
+    font-weight: bold;
+    border-top:none;
+}
+
+.timeMarker-left {
+    border-left:none;
+}
+
+.timeMarker-marked {
+    background-color: #EEEEEE;
+}
+
+.card {
+    text-overflow: ellipsis;
+    user-select: none;
+    -webkit-user-drag: none;
+    padding: 2px;
+    margin: 0px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    cursor: default;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.12),
+                0px 1px 2px 0px rgba(0,0,0,0.24);
+}
+
+.connector {
+    background-color: lightgray;
+    position: absolute;
+    width: 2px;
+}
