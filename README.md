@@ -1,5 +1,7 @@
 # Timeline Mod for TIBCO Spotfire®
 
+<img src="assets/timeline.png" width="60%"/>
+
 Display a list of events in chronological order  to communicate time-related information, over time, either for analysis or to visually present a story or view of history.
 
 ## Installation & Use
