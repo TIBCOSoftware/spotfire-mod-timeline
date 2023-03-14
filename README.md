@@ -6,6 +6,8 @@ Display a list of events in chronological order  to communicate time-related inf
 
 ## Installation & Use
 
+[Download latest version](https://github.com/TIBCOSoftware/spotfire-mod-timeline/releases)
+
 The [Wiki](https://github.com/TIBCOSoftware/spotfire-mod-timeline/wiki) contains step-by-step instruction on how to install and use this Mod in TIBCO Spotfire®.
 
 ## Building the Project
